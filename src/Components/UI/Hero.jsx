@@ -1,10 +1,10 @@
 import React from "react";
-import heroImg from "../../assets/images/hero.svg";
+import heroImg from "../../assets/images/Ahsan.png";
 import CountUp from "react-countup";
 const Hero = () => {
   return (
     <section className="pt-0 " id="about">
-      <div className="md:max-w-[1380px] md:mx-auto ml-[80px] md:pt-14 ">
+      <div className="container">
         <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
           {/* =================Hero Left content ====================== */}
           <div className="w-full md:basis-1/2">
@@ -13,7 +13,7 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor font-[600] text-[16px]"
             >
-              Welcome Ahsan Sajid
+              Hello Welcome
             </h5>
             <h1
               data-aos="fade-up"
